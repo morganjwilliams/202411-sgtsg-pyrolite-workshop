@@ -1,0 +1,16 @@
+name: "Build Binder Image"
+on:
+  push:
+    branches:
+      - develop
+      - main
+
+jobs:
+  trigger-binder-build:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: s-weigand/trigger-mybinder-build@v1
+        with:
+          target-repo: ${{ github.repository }}
+          target-state: ${{ github.ref_name }}
+          debug: true
