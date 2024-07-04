@@ -25,7 +25,7 @@ jobs:
         uses: mamba-org/provision-with-micromamba@v14
         with:
           environment-file: ./binder/environment.yml
-          environment-name: sggmp-workshop-env
+          environment-name: sgtsg-workshop-env
           cache-downloads: true
           # cache-env: true
           extra-specs: |
