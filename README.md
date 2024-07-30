@@ -88,8 +88,4 @@ To view the notebooks for this workshop, follow the link below:
 | Louise Schoneveld (CSIRO) | [@L_Schoneveld](https://twitter.com/L_Schoneveld) | [@lavender22](https://github.com/lavender22)           |
 
 
-If you want to check out some of my other open software projects, most are listed on
-[my GitHub profile](https://github.com/morganjwilliams).
-Feel free to get in touch via Gitter (for anything `pyrolite` related), via
-[Twitter](https://twitter.com/metasomite) or send an email to
-`morgan.williams` _at_ `csiro.au`.
+If you want to check out some of my other open software projects, most are listed on [my GitHub profile](https://github.com/morganjwilliams). Feel free to get in touch - send an email to `morgan.williams` _at_ `csiro.au`.
