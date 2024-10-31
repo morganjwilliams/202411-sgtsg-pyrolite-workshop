@@ -24,7 +24,7 @@ jobs:
       - uses: mamba-org/setup-micromamba@v1
         with:
           environment-file: ./binder/environment.yml
-          environment-name: sgtsg-workshop-env
+          environment-name: base
           cache-downloads: true
           # cache-env: true
           create-args: >-
@@ -32,7 +32,7 @@ jobs:
           post-cleanup: 'all'
       - name: Register Env
         run: |
-          python -m ipykernel install --user --name sgtsg-workshop-env
+          python -m ipykernel install --user --name base
 
       - name: Run notebooks
         run: |
