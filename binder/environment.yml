@@ -8,6 +8,7 @@ dependencies:
   - contextily
   - numpy
   - matplotlib
+  - ipykernel
   - ipympl
   - scikit-learn
   - scipy

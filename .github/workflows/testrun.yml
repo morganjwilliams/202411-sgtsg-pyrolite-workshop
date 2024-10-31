@@ -30,6 +30,10 @@ jobs:
           create-args: >-
             python=${{ matrix.python-version }}
           post-cleanup: 'all'
+      - name: Register Env
+        run: |
+          python -m ipykernel install --user --name sgtsg-workshop-env
+
       - name: Run notebooks
         run: |
           python ./test/run_notebooks.py
