@@ -71,7 +71,7 @@ This section will feature a set of extended workflow examples, potentially inclu
 
 ## Notebooks
 
-To view the notebooks for this workshop, follow one of the links below. The first is the custom JupyterLab instance to be used for the workshop, but the content should be available via Binder thereafter (albiet, with a short delay associated with building an environment to run it in).
+To view the notebooks for this workshop, follow one of the links below. The first is the custom JupyterLab instance to be used for the workshop (*you'll be given a unique username at the workshop, and you can create a password on first login*), but the content should be available via Binder thereafter (*albiet, with a short delay associated with building an environment to run it in, using free resources provided by MyBinder*).
 
 |   Workshop JupyterHub  |  Binder |
 |:-------:|:-------:|
