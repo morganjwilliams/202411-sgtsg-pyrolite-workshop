@@ -3,7 +3,7 @@ from pathlib import Path
 import nbformat
 from nbconvert.preprocessors import CellExecutionError, ExecutePreprocessor
 
-ep = ExecutePreprocessor(timeout=600, kernel_name="base")
+ep = ExecutePreprocessor(timeout=600, kernel_name="workshop-env")
 
 # iterate through the notebooks, and catch cell exectuion errors to look at later
 exceptions = {}
