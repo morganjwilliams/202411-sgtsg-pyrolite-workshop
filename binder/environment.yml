@@ -24,3 +24,4 @@ dependencies:
       - git+https://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite # latest develop release
 
 # conda env create -n workshop-env -f environment.yml 
+# python -m ipykernel install --user --name workshop-env
