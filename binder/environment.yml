@@ -10,6 +10,7 @@ dependencies:
   - matplotlib
   - ipykernel
   - ipympl
+  - openpyxl
   - scikit-learn
   - scipy
   - umap-learn
