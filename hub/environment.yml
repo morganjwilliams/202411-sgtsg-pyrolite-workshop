@@ -1,0 +1,30 @@
+name: base
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.12
+  - pandas
+  - geopandas
+  - contextily
+  - numpy
+  - matplotlib
+  - ipympl
+  - scikit-learn
+  - scipy
+  - umap-learn
+  - sympy
+  - joblib
+  - requests
+  - jupyterlab_code_formatter
+  - ruff
+  - pip
+  - git
+  - pip:
+      - git+https://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite # latest develop release\
+
+variables:
+  MPLNOCACHEWARN: true
+  NUMBA_CACHE_DIR: $HOME/.numba/
