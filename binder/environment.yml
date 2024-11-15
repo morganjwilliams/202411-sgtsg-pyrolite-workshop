@@ -1,3 +1,5 @@
+name: workshop-env
+
 channels:
   - conda-forge
   - defaults
