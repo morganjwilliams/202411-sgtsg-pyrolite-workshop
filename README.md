@@ -37,7 +37,8 @@ released on the day.</div>
 | 17:30 - 18:00 | Setup, Welcome, Refreshments                                            |
 | 18:00 - 18:15 | [**Introduction**](#introduction) (15 mins)                             |
 | 18:15 - 18:45 | [**Using pyrolite**](#pyrolite) (30 mins)                               |
-| 18:45 - 19:30 | [**Geochemical Data Workflows**](#geochemical-data-workflows) (45 mins) |
+| 18:45 - 19:25 | [**Geochemical Data Workflows**](#geochemical-data-workflows) (40 mins) |
+| 19:25 - 19:30 | Wrap Up                                                                 |
 
 
 #### Introduction
@@ -65,7 +66,6 @@ This section will feature a set of extended workflow examples, potentially inclu
 * A few of the more complex feaures - Calculating CIPW Norms and lambdas
 * A few basic ML workflows
 * Basic spatial visualisation with GeoPandas
-
 
 ## Notebooks
 
