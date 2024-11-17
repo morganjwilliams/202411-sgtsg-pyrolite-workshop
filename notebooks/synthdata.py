@@ -7,6 +7,7 @@ from scipy.stats.distributions import poisson
 
 def get_synthetic_data(
     columns=["CaO", "MgO", "SiO2", "FeO", "Na2O", "Ni", "Ti", "La", "Lu", "Te"],
+    isotopes=False,
     seed=24,
     **kwargs,
 ):
@@ -14,14 +15,15 @@ def get_synthetic_data(
     df = normal_frame(columns=columns, seed=seed, **kwargs) * 100
     # simulate some ppm data in a fairly blunt way
     df[df.pyrochem.list_elements] *= 10
-    # simulate some Sr isotope data
-    df["Sr87/Sr86"] = (
-        0.0700 / 0.0986
-        + (np.random if seed is None else np.random.RandomState(seed)).randn(
-            df.index.size
+    if isotopes:
+        # simulate some Sr isotope data
+        df["Sr87/Sr86"] = (
+            0.0700 / 0.0986
+            + (np.random if seed is None else np.random.RandomState(seed)).randn(
+                df.index.size
+            )
+            * 0.0001
         )
-        * 0.0001
-    )
     return df
 
 

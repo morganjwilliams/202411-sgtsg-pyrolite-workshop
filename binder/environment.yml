@@ -2,6 +2,7 @@ name: workshop-env
 
 channels:
   - conda-forge
+  
 dependencies:
   - pandas
   - geopandas
