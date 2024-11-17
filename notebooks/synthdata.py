@@ -6,10 +6,12 @@ from scipy.stats.distributions import poisson
 
 
 def get_synthetic_data(
-    columns=["CaO", "MgO", "SiO2", "FeO", "Na2O", "Ni", "Ti", "La", "Lu", "Te"], seed=24
+    columns=["CaO", "MgO", "SiO2", "FeO", "Na2O", "Ni", "Ti", "La", "Lu", "Te"],
+    seed=24,
+    **kwargs,
 ):
     # synthetic data with a multivariate normal distribution in log-transformed space
-    df = normal_frame(columns=columns, seed=seed) * 100
+    df = normal_frame(columns=columns, seed=seed, **kwargs) * 100
     # simulate some ppm data in a fairly blunt way
     df[df.pyrochem.list_elements] *= 10
     # simulate some Sr isotope data
