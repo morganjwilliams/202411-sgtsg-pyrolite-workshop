@@ -2,6 +2,7 @@
 
 [![pyrolite Documentation](https://readthedocs.org/projects/pyrolite/badge/?version=develop)](https://pyrolite.readthedocs.io/)
 [![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/morganjwilliams/202411-sgtsg-pyrolite-workshop/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14174483.svg)](https://doi.org/10.5281/zenodo.14174483)
 
 This repository contains the content for the 2024-11-18 pyrolite workshop for
 the 2024 Specialist Group in Tectonics and Structural Geology (SGTSG) meeting in
